@@ -66,6 +66,12 @@ Note: Make sure to always activate your virtual environment before using it ==>
   source  ~/.venvs/chaostk/bin/activate
 ```
 
+Run both micrservices :
+
+```bash
+python3 ./sample-app-code/astre.py & 
+python3 ./sample-app-code/sunset.py &
+```
 
 
 
