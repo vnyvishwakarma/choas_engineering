@@ -60,6 +60,12 @@ Installing requirements:
   pip install ./sample-app-code/requirements.txt
 ```
 
+Note: Make sure to always activate your virtual environment before using it ==> 
+
+```bash
+  source  ~/.venvs/chaostk/bin/activate
+```
+
 
 
 
