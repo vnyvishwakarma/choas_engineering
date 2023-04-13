@@ -83,6 +83,9 @@ curl -k https://localhost:8443/city/paris
 ```
 
 ```bash
-chaos run experiment.json 
+chaos run experiment.json
+```
+
+```bash
 chaos run --rollback-strategy always experiment.json 
 ```
