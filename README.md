@@ -47,7 +47,7 @@ You can verify the command was installed by running:
 ```
 
 
-### Applcation Overview 
+## Applcation Overview 
 
 
 ![application](images/app.png)
