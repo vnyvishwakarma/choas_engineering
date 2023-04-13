@@ -69,7 +69,7 @@
             "provider": {
                 "type": "process",
                 "path": "pkill",
-                "arguments": "--echo -HUP -F astre.pid"
+                "arguments": "-HUP -F astre.pid"
             }
         },
         {
@@ -78,10 +78,10 @@
             "provider": {
                 "type": "process",
                 "path": "pkill",
-                "arguments": "--echo -HUP -F sunset.pid"
+                "arguments": "-HUP -F sunset.pid"
             },
             "pauses": {
-                "after": 1
+                "after": 3
             }
         }
     ],

@@ -66,14 +66,21 @@ Note: Make sure to always activate your virtual environment before using it ==>
   source  ~/.venvs/chaostk/bin/activate
 ```
 
-Run both micrservices :
+Run both micrservices in background :
 
 ```bash
-python3 ./sample-app-code/astre.py & 
-python3 ./sample-app-code/sunset.py &
+python3 ./astre.py & 
+python3 ./sunset.py &
 ```
 
+test using curl command or postman
 
 
+```bash
+curl -k https://localhost:8443/city/paris
+```
 
-
+```bash
+chaos run experiment.json 
+chaos run --rollback-strategy always experiment.json 
+```
