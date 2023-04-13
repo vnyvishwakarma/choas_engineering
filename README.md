@@ -57,7 +57,7 @@ Run application which is made of two microservices (astre.py and sunset.py) that
 Installing requirements:
 
 ```bash
-  pip install ./sample-app-code/requirements.txt
+  pip install -r ./sample-app-code/requirements.txt
 ```
 
 Note: Make sure to always activate your virtual environment before using it ==> 
@@ -69,7 +69,9 @@ Note: Make sure to always activate your virtual environment before using it ==>
 Run both micrservices in background :
 
 ```bash
-python3 ./astre.py & 
+python3 ./astre.py &
+```
+```bash
 python3 ./sunset.py &
 ```
 
