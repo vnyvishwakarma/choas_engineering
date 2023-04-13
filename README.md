@@ -43,7 +43,7 @@ Make sure to always activate your virtual environment before using it:
 You can verify the command was installed by running:
 
 ```bash
-chaos --version
+  chaos --version
 ```
 
 
@@ -54,6 +54,11 @@ chaos --version
 
 Run application which is made of two microservices (astre.py and sunset.py) that converse with each other over HTTPS
 
+Installing requirements:
+
+```bash
+  pip install ./sample-app-code/requirements.txt
+```
 
 
 
