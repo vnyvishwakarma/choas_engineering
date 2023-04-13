@@ -32,3 +32,16 @@ Make sure to always activate your virtual environment before using it:
 ```bash
   source  ~/.venvs/chaostk/bin/activate
 ```
+
+
+### Install chaostoolkit in the virtual environment as follows:
+
+```bash
+  pip install -U chaostoolkit
+```
+
+You can verify the command was installed by running:
+
+```bash
+chaos --version
+```
