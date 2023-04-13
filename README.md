@@ -6,7 +6,7 @@
 
 ## What is Chaos Engineering 
 
-![chaos](images/history.png)
+![chaos](images/chaos.png)
 
 
 ## How to Install the Chaos Toolkit
