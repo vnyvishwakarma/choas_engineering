@@ -89,3 +89,10 @@ chaos run experiment.json
 ```bash
 chaos run --rollback-strategy always experiment.json 
 ```
+
+
+### Chaos engineering, a dance of disorder,
+We test and we break, to build systems stronger.
+
+
+
